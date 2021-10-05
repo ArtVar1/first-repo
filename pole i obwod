@@ -1,0 +1,24 @@
+<html>
+     <head>
+           <script type="text/javascript">
+                
+                function pole_varisella()
+{
+ var a_var = prompt("podaj a", "1");
+ var b_var = prompt("podaj b", "1");
+document.write ("pole= "+a_var*b_var);
+document.write('<br/>');
+document.write ("obwod= "+(2*a_var+2*b_var));
+}
+   
+ </script>
+
+
+
+     </head>
+<body>
+    <form>
+        <input type="button" name="przycisk" value="obliczenie" onclick="pole_varisella(' ')">
+    </form>
+</body>
+</html>
