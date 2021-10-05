@@ -1,0 +1,44 @@
+<html>
+     <head>
+           <script type="text/javascript">
+                
+                function obw_varisella(a, b, c, h)
+{
+ var a_var = prompt("podaj a", "1");
+ var b_var = prompt("podaj b", "1");
+ var h_var = prompt("podaj h", "1");
+a_var = parseFloat(a)
+b_var = parseFloat(b)
+c_var = parseFloat(c)
+h_var = parseFloat(h)
+
+ pitagoras= (b_var - a_var) / 2
+c_var = Math.sqrt((pitagoras*pitagoras) + (h_var * h_var))
+ obwod= (a_var + b_var) + 2 * c_var
+
+document.write ("obwod= "+obwod);
+
+}
+function pow_varisella(a, b, h)
+   {
+var a_var = prompt("podaj a", "1");
+ var b_var = prompt("podaj b", "1");
+ var h_var = prompt("podaj h", "1");
+ a_var = parseFloat(a)
+b_var = parseFloat(b)
+h_var = parseFloat(h)
+    pole= (a_var + b_var) * h_var / 2
+    document.write ("pole= "+pole);
+   }
+ </script>
+
+
+
+     </head>
+<body>
+    <form>
+        <input type="button" name="przycisk" value="obliczenie obwodu" onclick="obw_varisella(' ')">
+        <input type="button" name="przycisk" value="obliczenie pola" onclick="pow_varisella(' ')">
+    </form>
+</body>
+</html>
