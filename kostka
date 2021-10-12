@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function wypisz() {
+            var liczba = prompt("podaj liczbe", "1");
+            var rzuty = prompt("podaj liczbe rzutów", "1");
+        }
+
+
+        var rzut = [];
+        for (var i = 1; i <= 0; i++); {
+            var rzut = Math.floor(Math.random() * 6 + 1);
+            rzut = (rzut)
+        }
+        document.write("wynik" + rzut);
+    </script>
+</head>
+
+<body>
