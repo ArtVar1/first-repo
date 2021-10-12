@@ -7,9 +7,7 @@
           liczba_rzut=parseFloat(r)
           liczba_scian=parseFloat(s)
                                 
-                                ocument.getElementsByName('sciany');
-                                document.getElementsByName('rzuty');
-                                
+                         
   }
   
         for (var i = 1; i <= liczba_scian; i++); {
