@@ -1,0 +1,25 @@
+<html> 
+<head> 
+<script type="text/javascript"> 
+  function czolg (kolor, waga, marka, rok_produkcji, kraj, kaliber) {
+      this.kolor
+      this.waga
+      this.marka
+      this.rok_produkcji
+      this.kraj
+      this.kaliber
+  }
+  function.wypisz
+    {
+        tiger = new czolg("szary", 15000, "Panzerkampfwagen VI Tiger", 1942, "Niemcy", "88mm")
+        t90 = new czolg("zielony" 30000, "T-90", 1993, "Rosja","125mm")
+        sherman = new czolg ("zielony", 25000, "M4 Sherman", 1942, "Stany Zjednoczone" "90mm")
+        abrams = new czolg ("szary", 50000, "M1 Abrams", 1980, "Stany Zjednoczone","105mm")
+        
+    }
+</script> 
+</head> 
+ <body>
+    
+ </body> 
+</html>  
