@@ -1,20 +1,36 @@
 <html>
-
 <head>
     <script type="text/javascript">
         function wypisz() {
-            var liczba = prompt("podaj liczbe", "1");
-            var rzuty = prompt("podaj liczbe rzutów", "1");
-        }
-
-
-        var rzut = [];
-        for (var i = 1; i <= 0; i++); {
-            var rzut = Math.floor(Math.random() * 6 + 1);
-            rzut = (rzut)
-        }
-        document.write("wynik" + rzut);
+          
+          rzut_wynik=parseFloat(wyn)
+          liczba_rzut=parseFloat(r)
+          liczba_scian=parseFloat(s)
+                                
+                                ocument.getElementsByName('sciany');
+                                document.getElementsByName('rzuty');
+                                
+  }
+  
+        for (var i = 1; i <= liczba_scian; i++); {
+           Math.floor(Math.random() * liczba_scian + 1 == rzut_wynik);
+            
+        }   
     </script>
 </head>
-
-<body>
+<body> 
+ rzut kostką
+<br> 
+<form name="formularz" action="..." onsubmit="rzut(this.rzuty.value,this.sciany.value); return false">  
+ Podaj liczbę rzutów:
+<input  size="4"  name="rzuty">
+ Podaj liczbę ścian:
+<input  size="4"  name="sciany">
+<br>
+<input  TYPE="submit"  Value="losuj" >
+</form>
+<table>
+<tr id="pokaz[i]"></tr>
+</table>
+</body> 
+</html>
