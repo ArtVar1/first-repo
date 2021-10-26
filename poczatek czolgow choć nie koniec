@@ -9,17 +9,32 @@
       this.kraj
       this.kaliber
   }
-  function.wypisz
-    {
+  function.wypiszczolgi
         tiger = new czolg("szary", 15000, "Panzerkampfwagen VI Tiger", 1942, "Niemcy", "88mm")
-        t90 = new czolg("zielony" 30000, "T-90", 1993, "Rosja","125mm")
-        sherman = new czolg ("zielony", 25000, "M4 Sherman", 1942, "Stany Zjednoczone" "90mm")
+        t90 = new czolg("zielony", 30000, "T-90", 1993, "Rosja","125mm")
+        sherman = new czolg ("zielony", 25000, "M4 Sherman", 1942, "Stany Zjednoczone", "90mm")
         abrams = new czolg ("szary", 50000, "M1 Abrams", 1980, "Stany Zjednoczone","105mm")
+        
+    }
+
+
+   
+    function koty (kolor, waga, rasa) {
+      this.kolor
+      this.waga
+  function.wypiszkoty
+    {
+        mainecoon = new koty("szary", "7kg", "Mainecoon")
+        egzotyczny = new koty("zielony", "4kg", "Egzotyczny")
+        syjamski = new koty ("zielony", "5kg", "Syjamski")
+        balijski = new koty ("szary", "4.5kg", "Balijski")
         
     }
 </script> 
 </head> 
  <body>
-    
+    <form>
+        <input type="button" name="przycisk" value="czolgi" onclick="wypiszczolgi()">
+    </form>
  </body> 
 </html>  
