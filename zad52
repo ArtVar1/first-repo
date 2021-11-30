@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript">
+function logowanie(av) 
+{
+  if(av.login.value=="varisella"&av.haslo.value=="artur")
+      {
+        window.location.replace("obliczenie.html");
+       }
+                              else
+       {
+         window.location.replace("czolgi.html");
+       }
+  }
+       
+
+</script>
+</head>
+ <body>
+   <form name="formularz">
+Login:  <input type="text" name="Login"/><br><br>
+Hasło:  <input type="password" name="haslo"/><br><br>
+<input type="button" value="Logowanie..." onClick="logowanie(this.form)"/><br><br>
+<button type="reset" name="Reset" value="Clear"> Clear</button>
+    </form>
+ </body>
+</html>
