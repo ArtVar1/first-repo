@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>JavaScript - Data i czas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<body> 
+<p>
+<script type="text/javascript"> 
+data_n = new Date();
+data_r = data_n.toLocaleString();
+document.write("<b>DATA I CZAS:</b> " + data_r + "<br>");
+</script>
+</p>
+</body>
+</html>
