@@ -1,9 +1,9 @@
 <html>
 <body>
  <script language="JavaScript">
-var x=prompt("podaj liczbę x=","");
- var a=parseFloat(x);
- if (x==1995)
+var x=prompt("podaj reok od kiedy dziala JS","");
+ var a=parseFloat(rok_kow);
+ if (rok_kow==1995)
  document.write ("<p style=\"font-size: 40; color: blue;\"><br>brawo znasz rok od kiedy dziala javascript, wczytany rok="+a+"<br></p>");
  else 
  document.write ("<p style=\"font-size: 70; color: red;\"><br>źle musisz jeszcze poczytać, wczytany rok="+a+"<br></p>");
