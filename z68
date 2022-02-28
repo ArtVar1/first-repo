@@ -1,0 +1,11 @@
+<html>
+<body>
+ <script language="JavaScript">
+ for(i=1;i<=19;i++)
+ {
+if (i%2 == 0) document.write ("<p style=\"font-size: 49px; color: blue;\"><br>wyświetlam "+i+" "+" varisella"+"<br>");
+else document.write ("<p style=\"font-size: 49px; color: green;\"><br>wyświetlam "+i+" "+" artur"+"<br>");
+ }
+ </script>
+</div>
+</body>
