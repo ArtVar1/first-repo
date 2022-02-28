@@ -1,0 +1,12 @@
+<html>
+<body>
+ <script language="JavaScript">
+var x=prompt("podaj liczbę x=","");
+ var a=parseFloat(x);
+ if (x % 2 == 0)
+ document.write ("<p style=\"font-size: 30; color: red;\"><br>liczba jest parzysta<br></p>");
+ else 
+ document.write ("<p style=\"font-size: 50; color: grey;\"><br>liczba jest nieparzysta<br></p>");
+ </script>
+</div>
+</body
