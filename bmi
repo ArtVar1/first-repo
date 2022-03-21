@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>JavaScript - Data i czas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<body> 
+<p>
+<script type="text/javascript"> 
+   var waga = parseFloat(document.getElementById("waga").value);
+    var wzrost = parseFloat(document.getElementById("wzrost").value)/100; 
+    var b = waga/(wzrost*wzrost);  
+    document.getElementById("ans").value = String(b.toPrecision(3)) +" kg/m^2";
+    if (b < 18.5)
+    {
+        document.getElementById("category").value = "niedowaga";
+    }
+    else if (b >= 18.5 && b <= 25)
+    {
+        document.getElementById("category").value = "zdrowa waga";
+    }
+    else if (b > 25 && b <= 30)
+    {
+        document.getElementById("category").value = "nadwaga";
+    }
+    else if (b > 30 && b <= 35)
+    {
+        document.getElementById("category").value = "otyłość";
+    }
+    else if(b > 35 && b <= 40)
+    {
+        document.getElementById("category").value = "poważna otyłość";
+    }
+    else
+    {
+        document.getElementById("category").value = "poważna otyłość";
+    }
+
+</script>
+</p>
+</body>
+</html>
