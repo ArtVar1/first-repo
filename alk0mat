@@ -1,0 +1,21 @@
+<form method="Get">
+<input name= "liczba1"></input>
+podaj ilosc wypitego alkoholu w gramach<br>
+<input name= "liczba2"></input>
+podaj wage w Kg <br>
+<input type ="submit" name="ez"></input>
+</form>
+
+<?php
+
+
+if (isset ($_GET['ez']))
+{
+$liczba1 = $_GET['liczba1'];
+$liczba2 = $_GET['liczba2'];
+$p = $liczba1 / (0.65 * $liczba2);
+
+echo $p;
+
+}
+?>
